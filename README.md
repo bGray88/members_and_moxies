@@ -54,7 +54,7 @@ The mob needs a database of all the cronies and jabronies, ASAP!
 
   ### Built With
 
-  [![Ruby]][Ruby-url] [![Rails]][Rails-url][![Postgres]][Postgres-url]
+  [![Python]][Python-url] [![Django]][Django-url][![SQLite]][SQLite-url]
 
   ### Roadmap
   <details>
@@ -140,9 +140,9 @@ The mob needs a database of all the cronies and jabronies, ASAP!
 
   <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-  [Python]: https://img.shields.io/github/pipenv/locked/python-version/bGray88/members_and_moxies
+  [Python]: https://img.shields.io/badge/Python-FFD43B?style=flat&logo=python&logoColor=blue
   [Python-url]: https://www.python.org/
-  [Django]: https://img.shields.io/badge/-Ruby%20on%20Rails-CC0000?style=flat&logo=rubyonrails&logoColor=white
-  [Django-url]: https://rubyonrails.org
-  [SQLite]: https://img.shields.io/badge/-Postgres-4169E1?style=flat&logo=postgresql&logoColor=white
-  [SQLite-url]: https://www.postgresql.org/
+  [Django]: https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=green
+  [Django-url]: https://www.djangoproject.com/
+  [SQLite]: https://img.shields.io/badge/SQLite-07405E?style=flat&logo=sqlite&logoColor=white
+  [SQLite-url]: https://sqlite.org/index.html
