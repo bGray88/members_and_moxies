@@ -2,7 +2,7 @@
 
 ## members_and_moxies
 
-The mob needs a database of all the cronies and jabronies, ASAP!
+The mob needs a database of all the cronies and jabronis, ASAP!
 
 <a name="readme-top"></a>
 
@@ -45,16 +45,10 @@ The mob needs a database of all the cronies and jabronies, ASAP!
   ### Production Links
   
   * [Github](https://github.com/bgray88/members_and_moxies) <br>
-
-  ### Learning Goals
-
-  * Microservice integration and implementation
-  * Service integration and implementation
-  * Efficient API exposure
-
+  
   ### Built With
 
-  [![Python]][Python-url] [![Django]][Django-url][![SQLite]][SQLite-url]
+  [![Python]][Python-url] [![Django]][Django-url] [![Postgres]][Postgres-url]
 
   ### Roadmap
   <details>
@@ -76,8 +70,8 @@ The mob needs a database of all the cronies and jabronies, ASAP!
 
   ### Prerequisites
 
-  * Ruby 2.7.4
-  * Rails 7.0.4.3
+  * Python 3.11.3
+  * Django 4.2.1
 
   ### Installation
 
@@ -87,17 +81,17 @@ The mob needs a database of all the cronies and jabronies, ASAP!
   ```sh
   git clone git@github.com:bGray88/members_and_moxies.git
   ```
-  2. Install gems
+  2. Install requirements
   ```sh
-  bundle install
+  pip install -r requirements.txt
   ```
   3. Setup the database
   ```js
-  rails db:{create,migrate,seed}
+  python src/manage.py migrate
   ```
-  4. Run RSpec tests
+  4. Run Pytest tests
   ```sh
-  bundle exec rspec
+  pytest src
   ```
 
   <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -144,5 +138,5 @@ The mob needs a database of all the cronies and jabronies, ASAP!
   [Python-url]: https://www.python.org/
   [Django]: https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=green
   [Django-url]: https://www.djangoproject.com/
-  [SQLite]: https://img.shields.io/badge/SQLite-07405E?style=flat&logo=sqlite&logoColor=white
-  [SQLite-url]: https://sqlite.org/index.html
+  [Postgres]: https://img.shields.io/badge/-Postgres-4169E1?style=flat&logo=postgresql&logoColor=white
+  [Postgres-url]: https://www.postgresql.org/
