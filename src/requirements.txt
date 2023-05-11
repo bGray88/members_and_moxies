@@ -1,0 +1,8 @@
+allure_python_commons==2.13.2
+Django==4.2.1
+Faker==18.7.0
+pyleniumio==1.17.2
+pytest==7.3.1
+python-decouple==3.8
+reportportal_client==5.3.1
+Requests==2.30.0
